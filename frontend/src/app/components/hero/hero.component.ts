@@ -74,13 +74,6 @@ import { RouterLink } from '@angular/router';
         </div>
       </div>
 
-      <!-- Scroll indicator -->
-      <div class="scroll-indicator hero-animate hero-anim-6">
-        <div class="scroll-mouse">
-          <div class="scroll-wheel"></div>
-        </div>
-        <span>Scroll</span>
-      </div>
     </section>
   `,
   styles: [`
@@ -246,47 +239,6 @@ import { RouterLink } from '@angular/router';
     .stat-divider {
       width: 1px; height: 40px;
       background: rgba(255,255,255,0.15);
-    }
-
-    /* Scroll */
-    .scroll-indicator {
-      position: absolute;
-      bottom: 2rem;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 2;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.5rem;
-      color: rgba(255,255,255,0.5);
-      font-size: 0.7rem;
-      font-family: 'Poppins', sans-serif;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      animation: bounceScroll 2s ease-in-out infinite;
-    }
-
-    .scroll-mouse {
-      width: 22px; height: 36px;
-      border: 2px solid rgba(255,255,255,0.4);
-      border-radius: 12px;
-      display: flex; justify-content: center; padding-top: 6px;
-    }
-    .scroll-wheel {
-      width: 3px; height: 8px;
-      background: rgba(255,255,255,0.6);
-      border-radius: 2px;
-      animation: scrollWheel 1.5s ease-in-out infinite;
-    }
-
-    @keyframes scrollWheel {
-      0%   { transform: translateY(0); opacity: 1; }
-      100% { transform: translateY(10px); opacity: 0; }
-    }
-    @keyframes bounceScroll {
-      0%, 100% { transform: translateX(-50%) translateY(0); }
-      50%       { transform: translateX(-50%) translateY(6px); }
     }
 
     /* Entrance animations */

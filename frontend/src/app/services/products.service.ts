@@ -12,9 +12,9 @@ export class ProductsService {
     { id: 6, name: 'Fresh Paneer', description: 'Soft, fresh paneer made from pure whole milk. Perfect for curries, grills, and traditional Indian recipes.', imageQuery: 'fresh paneer cheese', imageUrl: '/products/paneer.png', category: 'Paneer', icon: '🧀' },
     { id: 7, name: 'Pure Butter', description: 'Fresh white butter churned from pure cream. Rich, smooth and delicious — a perfect spread for every day.', imageQuery: 'fresh butter cream', imageUrl: 'https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=600&q=80', category: 'Butter', icon: '🧈' },
     { id: 8, name: 'Lassi', description: 'Thick and refreshing traditional Gujarati lassi made from fresh curd. Available sweet and salted.', imageQuery: 'lassi yogurt drink', imageUrl: '/products/lassi.png', category: 'Beverages', icon: '🥤' },
-    { id: 9, name: 'Shrikhand', description: 'Traditional Gujarati shrikhand — sweet strained curd dessert flavoured with cardamom and saffron.', imageQuery: 'shrikhand sweet dessert', imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80', category: 'Sweets', icon: '🍮' },
+    { id: 9, name: 'Shrikhand', description: 'Traditional Gujarati shrikhand — sweet strained curd dessert flavoured with cardamom and saffron.', imageQuery: 'shrikhand sweet dessert', imageUrl: '/products/shrikhand-premium.jpg', category: 'Sweets', icon: '🍮' },
     { id: 10, name: 'Cheese', description: 'Freshly made dairy cheese, smooth and mildly flavoured. Perfect for sandwiches, pizzas, and cooking.', imageQuery: 'fresh cheese dairy', imageUrl: 'https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=600&q=80', category: 'Cheese', icon: '🧀' },
-    { id: 11, name: 'Khoya / Mawa', description: 'Premium quality khoya made by slow-simmering pure milk. Essential for authentic Indian sweets and desserts.', imageQuery: 'khoya mawa indian sweet', imageUrl: 'https://images.unsplash.com/photo-1571211905390-1429bcc18bd7?w=600&q=80', category: 'Sweets', icon: '🍬' },
+    { id: 11, name: 'Khoya / Mawa', description: 'Premium quality khoya made by slow-simmering pure milk. Essential for authentic Indian sweets and desserts.', imageQuery: 'khoya mawa indian sweet', imageUrl: '/products/khoya-mawa-premium.jpg', category: 'Sweets', icon: '🍬' },
   ];
 
   getProducts(): Product[] { return this.products; }
